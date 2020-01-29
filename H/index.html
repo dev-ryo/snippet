@@ -18,14 +18,13 @@
       color: #262626;
       font: 16px/1.5 'Roboto', sans-serif;
     }
-    .i-amphtml-accordion-content.p36_18_36_36 {padding: 36px 18px 36px 36px;}
     .accordion-eMenu_c {
       width: 90%;
       max-width: 600px;
       border-bottom: 1px solid #d9e5e8;
       margin: 0 auto;
     }
-    .i-amphtml-accordion-header {
+    .accordion-eMenu-title {
       font-size: 20px;
       font-weight: normal;
       padding: 18px;
@@ -33,9 +32,9 @@
       border: none;
       outline: 0;
     }
-    .accordion-eMenu_c[expanded] .i-amphtml-accordion-header {border-bottom: 1px solid #1976D2;}
-    .i-amphtml-accordion-header:hover,
-    .i-amphtml-accordion-header:focus {color: #1976D2;}
+    .accordion-eMenu_c[expanded] .accordion-eMenu-title {border-bottom: 1px solid #1976D2;}
+    .accordion-eMenu-title:hover,
+    .accordion-eMenu-title:focus {color: #1976D2;}
     .accordion-header-indicator {
       --w: 11px;
       width: var(--w);
@@ -49,22 +48,22 @@
     }
     .accordion-eMenu_c[expanded] .accordion-header-indicator {transform: rotate(45deg);}
     .accordion-eMenu_c:not([expanded]) .accordion-header-indicator {transform: rotate(-45deg);}
-    .i-amphtml-accordion-content {padding: 36px 18px;}
+    .accordion-eMenu-exp {padding: 36px 18px;}
   </style>
 </head>
 <body>
 <amp-accordion expand-single-section animate>
   <section class="accordion-eMenu_c">
-    <h2>What is your job?<span class="accordion-header-indicator"></span></h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+    <h2 class="accordion-eMenu-title">What is your job?<span class="accordion-header-indicator"></span></h2>
+    <p class="accordion-eMenu-exp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
   </section>
   <section class="accordion-eMenu_c">
-    <h2>What is your work policy?<span class="accordion-header-indicator"></span></h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+    <h2 class="accordion-eMenu-title">What is your work policy?<span class="accordion-header-indicator"></span></h2>
+    <p class="accordion-eMenu-exp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
   </section>
   <section class="accordion-eMenu_c">
-    <h2>How do I request a job?<span class="accordion-header-indicator"></span></h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+    <h2 class="accordion-eMenu-title">How do I request a job?<span class="accordion-header-indicator"></span></h2>
+    <p class="accordion-eMenu-exp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
   </section>
 </amp-accordion>
 </body>
