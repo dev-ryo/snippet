@@ -25,7 +25,7 @@ The accordion menu design is based on [Algolia's design](https://www.algolia.com
 ![1582894853432](https://user-images.githubusercontent.com/42329240/75550719-d5088400-5a75-11ea-85b4-a74042319567.gif)
 
 ## Link
- - [Accordion](https://www.w3.org/TR/wai-aria-practices-1.1/#accordion)
+ - [WAI-ARIA Authoring Practices 1.1 【3.1 Accordion】](https://www.w3.org/TR/wai-aria-practices-1.1/#accordion)
  - [My site](https://ryo.dev/)
  - [Twitter](https://twitter.com/ryoo20190328)
 
