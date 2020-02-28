@@ -24,7 +24,7 @@ I just uploaded the folder that I downloaded with [CodePen's export.zip function
  
  - Change focus of title with `tab` key
  - The background color of the focused title changes slightly
- - Open panel with not only click but also `enter` key (with animation)
+ - Panel can be opened not only by clicking with the mouse but also by pressing the `enter` key
  - Elements in panel are focused only when panel is opened
  
 ## Sample
