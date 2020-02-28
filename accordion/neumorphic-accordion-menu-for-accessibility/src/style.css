@@ -1,0 +1,70 @@
+/* Copyright (c) 2020 by Sikriti Dakua (https://codepen.io/dev_loop/pen/XWJeKNO)
+Released under the MIT license
+https://opensource.org/licenses/mit-license.php */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {font-size: 16px;}
+body {
+  color: #262626;
+  font-family: arial,'ヒラギノ角ゴ Pro W3',YuGothic,'Yu Gothic',Meiryo,sans-serif;
+  line-height: 1.55;
+  font-weight: 500;
+}
+.accordion_c {
+  width: 90%;
+  max-width: 782px;
+  margin: 50px auto 0;
+}
+.accordion-eMenu + .accordion-eMenu {margin-top: 20px;}
+.accordion-title {
+  color: #262626;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: left;
+  width: 100%;
+  padding: 1.5rem;
+  padding-right: 57.87px;
+  background: #f2f2f2;
+  border: none;
+  border-radius: 2px;
+  box-shadow:
+    0px -6px 10px #fff,
+    0px 4px 15px rgba(0, 0, 0, 0.15),
+    0px 0px 14px 10px #F2F2F2;
+  position: relative;
+  cursor: pointer;
+  outline: 0;
+}
+.accordion-title:focus {background: #e8e8e8;}
+.accordion-title::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-left: 1.5px solid #848ab8;
+  border-top: 1.5px solid #848ab8;
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%) rotate(-135deg);
+  transition: .2s;
+}
+.accordion-title[aria-expanded="true"]::after {transform: translateY(-50%) rotate(45deg);}
+.accordion-panel {
+  max-height: 0;
+  padding: 0 2rem;
+  will-change: max-height, padding;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: .2s;
+}
+.accordion-open {
+  padding: 40px 2rem 20px;
+  max-height: 500px;
+  transform: scaleY(1);
+}
