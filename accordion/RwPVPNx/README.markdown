@@ -1,16 +1,23 @@
 # Neumorphic accordion menu for accessibility
 ![1582895576351](https://user-images.githubusercontent.com/42329240/75551421-86f48000-5a77-11ea-9e20-3f6a9fffc904.gif)
 
+## TOC
+ - [features](#features)
+ - [Sample](#Sample)
+ - [Code](#Code)
+ - [Link](#Link)
+ - [Please contact](#Please contact)
+
 ## features
  - Change focus of title with tab key
  - The background color of the focused title changes slightly
  - Open panel with not only click but also enter key (with animation)
  - Elements in panel are focused only when panel is opened
  
-## sample
+## Sample
 [https://codepen.io/Mryoo/pen/RwPVPNx](https://codepen.io/Mryoo/pen/RwPVPNx)
 
-## code
+## Code
 The code to realize the shadow of the neumorphism style is based on [this CodePen](https://codepen.io/dev_loop/pen/XWJeKNO). 
 ![1582894626272](https://user-images.githubusercontent.com/42329240/75550613-983c8d00-5a75-11ea-9f12-60044b2613df.jpg)
 
