@@ -6,7 +6,7 @@
  - [Sample](#Sample)
  - [Code](#Code)
  - [Link](#Link)
- - [Please contact](#Please contact)
+ - [Please contact](#please-contact)
 
 ## features
  - Change focus of title with tab key
