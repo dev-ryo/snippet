@@ -17,6 +17,14 @@
   </thead>
   <tbody>
     <tr>
+      <th scope="row"><a href="https://github.com/dev-ryo/snippet/blob/master/head/cat.html">cat</a></th>
+      <td>〇</td>
+      <td>〇</td>
+      <td></td>
+      <td></td>
+      <td>〇</td>
+    </tr>
+    <tr>
       <th scope="row"><a href="https://github.com/dev-ryo/snippet/blob/master/head/snake.html">snake</a></th>
       <td>〇</td>
       <td>〇</td>
