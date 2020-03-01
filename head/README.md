@@ -5,7 +5,7 @@
   <thead>
     <tr>
       <td rowspan="2">&nbsp;</td>
-      <th rowspan="2" scope="col">[Basic code](#Basic-code)</th>
+      <th rowspan="2" scope="col">Basic code</th>
       <th rowspan="2" scope="col">Twiiter card</th>
       <th rowspan="2" scope="col">AMP</th>
       <th colspan="2" scope="colgroup">schema.org</th>
