@@ -1,0 +1,30 @@
+.blockCode_c1 {
+  font-size: 0;
+  padding: 20px 10px;
+  background: #373737;
+  overflow: auto;
+}
+.blockCode_c2 {counter-reset: code;}
+.code-line {
+  display: inline-block;
+  color: #f8f8f1;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 1rem;
+  letter-spacing: -0.3px;
+  line-height: 1.5;
+}
+.code-line::before {
+  display: inline-block;
+  content: counter(code);
+  counter-increment: code;
+  color: #a9aaa5;
+  padding-right: 8px;
+  border-right: 1px solid #4b4b4b;
+  margin: 0 7px 0 0;
+}
+.code-gray {color: #75725e;}
+.code-pink {color: #ff006a;}
+.code-green {color: #85f423;}
+.code-yellow {color: #e6e26e;}
+.code-blue {color: #00e0f0;}
+.code-purple {color: #bc57ff;}
