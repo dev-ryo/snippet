@@ -9,7 +9,7 @@
  - [Please contact](#Please-contact)
 
 ## Directory structure
-I just uploaded the folder that I downloaded with [CodePen's export.zip function](https://blog.codepen.io/documentation/features/exporting-pens/#export-zip-1).
+I just uploaded the folder that I downloaded with [CodePen's export .zip function](https://blog.codepen.io/documentation/features/exporting-pens/#export-zip-1).
 <details>
  <summary>src directory</summary>
  The content of the html file contains only the code described in the CodePen HTML panel. The same applies to css file and js file. So, for example, the html file does not contain a `head` tag or `link` tags.
