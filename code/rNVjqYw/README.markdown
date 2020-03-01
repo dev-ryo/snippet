@@ -1,5 +1,5 @@
 # Inline code
-![1582895576351](https://user-images.githubusercontent.com/42329240/75551421-86f48000-5a77-11ea-9e20-3f6a9fffc904.gif)
+![1583026067125](https://user-images.githubusercontent.com/42329240/75617795-514eb480-5ba7-11ea-9ce8-979cf0d2535d.jpg)
 
 ## TOC
  - [Directory structure](#Directory-structure)
