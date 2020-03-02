@@ -1,8 +1,9 @@
-# AMP site search box
+# Block code
 ![1583108555182](https://user-images.githubusercontent.com/42329240/75637099-6c80f900-5c67-11ea-9478-6847379f473e.gif)
 
 ## TOC
  - [Directory structure](#Directory-structure)
+ - [features](#features)
  - [Sample](#Sample)
  - [Link](#Link)
  - [Please contact](#Please-contact)
@@ -18,12 +19,17 @@ I just uploaded the folder that I downloaded with [CodePen's export .zip functio
  Download the entire contents of the dist directory, open <code>index.html</code> in a browser and you should see my snippet (hard to explain).
 </details>
 
+## Features
+ - Use the Tab key to focus and press Enter to open the search box
+ - Opening the search box automatically focuses on the input field
+ - While the search box is open, the background element does not receive focus
+ - Close search box by pressing cross button or pressing Esc key
+
 ## Sample
 [https://codepen.io/Mryoo/pen/dyoNKXe](https://codepen.io/Mryoo/pen/dyoNKXe)
 
 ## Link
- - [amp-lightbox](https://amp.dev/ja/documentation/components/amp-lightbox/)
- - [amp-form](https://amp.dev/documentation/components/amp-form/)
+ - [Web safe font browser compatibility table](https://www.cssfontstack.com/#dashboard-monospaced)
  - [My site](https://ryo.dev/)
  - [Twitter](https://twitter.com/ryoo20190328)
 
