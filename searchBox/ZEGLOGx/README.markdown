@@ -20,13 +20,13 @@ I just uploaded the folder that I downloaded with [CodePen's export .zip functio
 </details>
 
 ## Features
- - Use the Tab key to focus and press Enter to open the search box
+ - Use the `Tab` key to focus and press `Enter` to open the search box
  - Opening the search box automatically focuses on the input field
  - While the search box is open, the background element does not receive focus
- - Close search box by pressing cross button or pressing Esc key
+ - Close search box by pressing cross button or pressing `Esc` key
 
 ## Sample
-[https://codepen.io/Mryoo/pen/dyoNKXe](https://codepen.io/Mryoo/pen/dyoNKXe)
+[https://codepen.io/Mryoo/pen/ZEGLOGx](https://codepen.io/Mryoo/pen/ZEGLOGx)
 
 ## Link
  - [Web safe font browser compatibility table](https://www.cssfontstack.com/#dashboard-monospaced)
