@@ -1,5 +1,5 @@
 # AMP site search box
-![1583060531115](https://user-images.githubusercontent.com/42329240/75624452-96023c00-5bf7-11ea-838b-6d02086160e9.jpg)
+![1583108555182](https://user-images.githubusercontent.com/42329240/75637099-6c80f900-5c67-11ea-9478-6847379f473e.gif)
 
 ## TOC
  - [Directory structure](#Directory-structure)
