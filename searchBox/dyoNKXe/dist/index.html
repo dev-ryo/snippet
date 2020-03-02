@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html ⚡ lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta name="description" content="">
+  <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+  <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+  <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+  <style amp-custom>
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      color: #262626;
+      font-family: arial,'ヒラギノ角ゴ Pro W3',YuGothic,'Yu Gothic',Meiryo,sans-serif;
+      line-height: 1.55;
+      font-weight: 500;
+    }
+
+    .searchBox_c1 {background: rgba(255, 255, 255, 0.95);}
+    .searchBox_c2 {
+      display: grid;
+      grid-template-columns: 84%;
+      justify-content: center;
+      align-content: center;
+      grid-gap: 6px;
+      height: 100vh;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    .searchBox-title {
+      color: #595959;
+      font-size: 15px;
+    }
+    .searchBox {
+      --w: 30px;
+      font-size: 0;
+      width: 100%;
+      position: relative;
+    }
+    .searchCharaInput {
+      color: #000;
+      font-family: inherit;
+      font-size: 26px;
+      padding-right: var(--w);
+      background: none;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #a6a6a6;
+      outline: 0;
+      border-radius: 0;
+      -webkit-appearance: none;
+    }
+    .searchBox-openBtn {
+      color: #3740ff;
+      width: 48px;
+      height: 48px;
+      padding: 14px;
+      background: #fff;
+      border: none;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2), 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12);
+      position: fixed;
+      right: 24px;
+      bottom: 24px;
+      z-index: 999;
+      outline: 0;
+      cursor: pointer;
+    }
+    .searchBox-openBtn:hover,
+    .searchBox-openBtn:active,
+    .searchBox-openBtn:focus {box-shadow: 0 5px 5px -3px rgba(0,0,0,0.2), 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12);}
+    .searchBox-openBtn:active,
+    .searchBox-openBtn:hover,
+    .searchBox-openBtn:focus {background: #DFE0FE;}
+
+    .searchBox-closeBtn {
+      width: 45px;
+      height: 45px;
+      background: none;
+      border: none;
+      border-radius: 50%;
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      transition: ease .2s;
+      outline: 0;
+      cursor: pointer;
+    }
+    .searchBox-closeBtn::before,
+    .searchBox-closeBtn::after {
+      content: "";
+      width: 60%;
+      height: 2px;
+      background: #626262;
+      position: absolute;
+      top: calc(50% - 1px);
+      left: 50%;
+    }
+    .searchBox-closeBtn::before {transform: translateX(-50%) rotate(45deg);}
+    .searchBox-closeBtn::after {transform: translateX(-50%) rotate(-45deg);}
+    .searchBox-closeBtn:hover,
+    .searchBox-closeBtn:active,
+    .searchBox-closeBtn:focus {background: #e0e0e0;}
+
+    @media (min-width:710px) {
+      html {font-size: 18px;}
+      body {line-height: 1.7;}
+    }
+  </style>
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <link rel="canonical" href="">
+  <title></title>
+  <link rel="icon" href="">
+  <link rel="apple-touch-icon" href="">
+</head>
+<body>
+  <!--
+    This SVG uses the font glyph of the following library.
+    Font Awesome Free by @fontawesome - https://fontawesome.com
+    License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+  -->
+  <amp-lightbox class="searchBox_c1" id="searchBox" layout="nodisplay">
+    <div class="searchBox_c2">
+      <p class="searchBox-title">サイト内を検索</p>
+      <form class="searchBox" method="GET" action="https://www.google.com/search" target="_top">
+        <input type="hidden" name="sitesearch" value="ryo.dev/article/">
+        <input type="search" placeholder="Search..." name="q" class="searchCharaInput">
+      </form>
+    </div>
+    <button on="tap:searchBox.close" class="searchBox-closeBtn" aria-label="記事検索フォームを閉じる"></button>
+  </amp-lightbox>
+
+  <button on="tap:searchBox.open" class="searchBox-openBtn" aria-label="記事検索フォームを開く">
+    <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+  </button>
+</body>
+</html>
