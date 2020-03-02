@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - text copy button</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <button onclick="textCopy('#sample');">copy</button>
+  <div><p id="sample">13</p></div>
+  <textarea cols="30" rows="10"></textarea>
+
+  <script  src="./script.js"></script>
+
+  <!-- I wrote this code to change the character to copy each time the button is pressed. It has nothing to do with the text copy function. -->
+  <script>
+    document.querySelector('button').addEventListener('click', () => {
+      sample.textContent = Math.floor(Math.random() * 100);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<button onclick="textCopy('#sample');">copy</button>
+<div><p id="sample">13</p></div>
+<textarea cols="30" rows="10"></textarea>
+
+<script>
+  document.querySelector('button').addEventListener('click', () => {
+    sample.textContent = Math.floor(Math.random() * 100);
+  });
+</script>
