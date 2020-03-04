@@ -1,5 +1,5 @@
 # Sliding side menu for accessibility
-![1583111228378](https://user-images.githubusercontent.com/42329240/75638052-a48b3a80-5c6d-11ea-9d0e-4bcbe7200d95.gif)
+![1583298760277](https://user-images.githubusercontent.com/42329240/75847403-6b47fb80-5e22-11ea-9409-99b22c920a65.gif)
 
 ## TOC
  - [Directory structure](#Directory-structure)
