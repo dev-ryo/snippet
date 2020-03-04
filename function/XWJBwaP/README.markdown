@@ -1,5 +1,5 @@
 # Show playlist on amp-youtube
-![1583298760277](https://user-images.githubusercontent.com/42329240/75847403-6b47fb80-5e22-11ea-9409-99b22c920a65.gif)
+![1583366208806](https://user-images.githubusercontent.com/42329240/75934229-45246900-5ebf-11ea-8fae-1fe3eabd35bd.jpg)
 
 ## TOC
  - [Directory structure](#Directory-structure)
