@@ -4,10 +4,9 @@
   <meta charset="UTF-8">
   <title>CodePen - Sliding side menu for accessibility</title>
   <link rel="stylesheet" href="./style.css">
-
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
 <header>
   <div class="gNav-mask" aria-hidden="true" tabindex="-1" onclick="gNavClose();"></div>
 
@@ -45,15 +44,14 @@
       </ul>
     </nav>
   </div>
-  <button class="gNav-closeBtn" aria-label="グローバルナビゲーションメニューを閉じる" onclick="gNavClose();"></button>
+  <button class="gNav-closeBtn" aria-label="Close global navigation menu" onclick="gNavClose();"></button>
   <div id="gNav-afterE" tabindex="-1" onfocus="chgFocus('.searchCharaInput');"></div>
 
-  <button class="gNav-openBtn" aria-label="グローバルナビゲーションメニューを開く" aria-controls="menuList-C" onclick="gNavOpen();"><span class="gNav-line"></span></button>
+  <button class="gNav-openBtn" aria-label="Open global navigation menu" aria-controls="menuList-C" onclick="gNavOpen();"><span class="gNav-line"></span></button>
 </header>
 
 <a href="">sample</a>
-<!-- partial -->
-  <script  src="./script.js"></script>
 
+<script  src="./script.js"></script>
 </body>
 </html>
