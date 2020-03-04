@@ -1,0 +1,44 @@
+<header>
+  <div class="gNav-mask" aria-hidden="true" tabindex="-1" onclick="gNavClose();"></div>
+
+  <div id="gNav-beforeE" tabindex="-1" onfocus="chgFocus('.gNav-closeBtn');"></div>
+  <div class="gNav" id="menuList-C">
+    <form class="searchBox" method="GET" action="https://www.google.com/search" target="_top">
+      <input type="hidden" name="sitesearch" value="ryo.dev/">
+      <input type="search" placeholder="Search in site" name="q" autocomplete="off" class="searchCharaInput" aria-label="Search in this site. Please enter a search character.">
+    </form>
+
+    <nav>
+      <ul aria-label="Global navigation menu" class="ls--n">
+        <li>
+          <a href="/" class="gNav-link1 m0">HOME</a>
+          <ul aria-label="Home submenu" class="ls--n">
+            <li class="lh--1"><a href="/#about" class="gNav-link2">About</a></li>
+            <li class="lh--1"><a href="/#production" class="gNav-link2">Production</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/work/" class="gNav-link1">WORK</a>
+          <ul aria-label="Work submenu" class="ls--n">
+            <li class="lh--1"><a href="/work/contactMe" class="gNav-link2">Contact me</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/article/?category=all" class="gNav-link1">ARTICLE</a>
+          <ul aria-label="Article category" class="ls--n">
+            <li class="lh--1"><a href="/article/?category=coding" class="gNav-link2">coding</a></li>
+            <li class="lh--1"><a href="/article/?category=thinking" class="gNav-link2">thinkin</a></li>
+            <li class="lh--1"><a href="/article/?category=experience" class="gNav-link2">experience</a></li>
+            <li class="lh--1"><a href="/article/?category=myWebServices" class="gNav-link2">my web services</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <button class="gNav-closeBtn" aria-label="グローバルナビゲーションメニューを閉じる" onclick="gNavClose();"></button>
+  <div id="gNav-afterE" tabindex="-1" onfocus="chgFocus('.searchCharaInput');"></div>
+
+  <button class="gNav-openBtn" aria-label="グローバルナビゲーションメニューを開く" aria-controls="menuList-C" onclick="gNavOpen();"><span class="gNav-line"></span></button>
+</header>
+
+<a href="">sample</a>
