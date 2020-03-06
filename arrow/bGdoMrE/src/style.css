@@ -1,0 +1,31 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+[class^="arrow"] {
+  --bdc: #212121;
+  --bdw: 3px;
+  --bg: #fff;
+  --p: 25px;
+  --w: 48px;
+  --A: calc(var(--bdw) + var(--p));
+  --B: calc(50% - var(--bdw) / 2);
+  --C: calc(50% + var(--bdw) / 2);
+  --E: calc(100% - var(--A));
+  --F: calc(100% - var(--p));
+  background:
+    linear-gradient(-45deg, var(--bg) var(--A), transparent var(--A), transparent var(--F), var(--bg) var(--F), var(--bg) 100%),
+    linear-gradient(45deg, var(--bg) var(--p), var(--bdc) var(--p), var(--bdc) var(--A), transparent var(--A), transparent var(--E), var(--bg) var(--E)),
+    linear-gradient(transparent var(--B), var(--bdc) var(--B), var(--bdc) var(--C), transparent var(--C)),
+    linear-gradient(-45deg, transparent var(--E), var(--bdc) var(--E), var(--bdc) var(--F), transparent var(--F));
+  display: inline-block;
+  height: var(--w);
+  width: var(--w);
+}
+.arrowR {transform: rotate(180deg);}
+.arrowT {transform: rotate(90deg);}
+.arrowB {transform: rotate(-90deg);}

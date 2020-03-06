@@ -1,0 +1,32 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+[class^="arrow"] {
+  --bdc: #212121;
+  --bdw: 3px;
+  --bg: #fff;
+  --p: 15px;
+  --w: 48px;
+  --A: calc(var(--bdw) + var(--p));
+  --B: calc(50% - var(--bdw) / 2);
+  --C: calc(50% + var(--bdw) / 2);
+  --D: calc(var(--p) * -1);
+  box-shadow:
+    var(--D) var(--D) 0 var(--bg) inset,
+    var(--p) var(--p) 0 var(--bg) inset,
+    var(--A) var(--A) 0 var(--bdc) inset;
+  display: inline-block;
+  height: var(--w);
+  width: var(--w);
+  background: linear-gradient(45deg, transparent var(--B), var(--bdc) var(--B), var(--bdc) var(--C), transparent var(--C));
+  margin: 20px;
+}
+.arrowL {transform: rotate(-45deg)}
+.arrowR {transform: rotate(135deg)}
+.arrowT {transform: rotate(45deg)}
+.arrowB {transform: rotate(-135deg)}
