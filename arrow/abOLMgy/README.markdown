@@ -1,5 +1,5 @@
 # Arrow made with linear-gradient
-![1583111228378](https://user-images.githubusercontent.com/42329240/75934400-b8c67600-5ebf-11ea-89d3-ace4d419bbf0.gif)
+![1583455622415](https://user-images.githubusercontent.com/42329240/76039344-7ff5d200-5f8f-11ea-8d01-8c747c7dba8e.jpg)
 
 ## TOC
  - [Directory structure](#Directory-structure)
