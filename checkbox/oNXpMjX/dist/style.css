@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
 }
+.ls--n {list-style: none;}
 .checkbox {
   --checkBox--w: 23px;
   cursor: pointer;
