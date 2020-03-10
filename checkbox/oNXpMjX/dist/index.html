@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Checkbox without input element</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <p id="q">Choose a pet you currently have.</p>
+  <div role="group" aria-labelledby="q">
+    <ul>
+      <li>
+        <div role="checkbox" aria-checked="false" tabindex="0" class="checkbox" onclick="switchCheck(this)" onkeydown="checkWithEnter(this)">Cat</div>
+      </li>
+      <li>
+        <div role="checkbox" aria-checked="false" tabindex="0" class="checkbox" onclick="switchCheck(this)" onkeydown="checkWithEnter(this)">Dog</div>
+      </li>
+      <li>
+        <div role="checkbox" aria-checked="false" tabindex="0" class="checkbox" onclick="switchCheck(this)" onkeydown="checkWithEnter(this)">Goldfish</div>
+      </li>
+      <li>
+        <div role="checkbox" aria-checked="false" tabindex="0" class="checkbox" onclick="switchCheck(this)" onkeydown="checkWithEnter(this)">Turtle</div>
+      </li>
+    </ul>
+  </div>
+
+  <script  src="./script.js"></script>
+</body>
+</html>
