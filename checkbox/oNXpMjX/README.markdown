@@ -1,5 +1,5 @@
 # Checkbox without input element
-![1583455827474](https://user-images.githubusercontent.com/42329240/76039476-eda1fe00-5f8f-11ea-9b32-453613b40a26.jpg)
+![1583832387841](https://user-images.githubusercontent.com/42329240/76298437-c4210380-62fc-11ea-99a5-e76c043bb21c.gif)
 
 ## TOC
  - [Directory structure](#Directory-structure)
