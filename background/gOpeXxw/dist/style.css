@@ -1,0 +1,26 @@
+:root {
+  --bg: #fbd1d1;
+  --fp-color: #e4adad;
+  --fp-size: 70px;
+  --fp-big-r: 10px;
+  --fp-big-pY: 55%;
+  --fp-small-pY: 25px;
+  --fp-mBS: 3px;
+  --fp-mSS: 3px;
+  --A: calc(var(--fp-big-r) / 2.4);
+  --B: calc(var(--fp-big-pY) - var(--fp-big-r) - var(--fp-mBS) - var(--A));
+  --C: calc(var(--A) * 2 + var(--fp-mSS));
+}
+body {
+  background: var(--bg);
+  background-image:
+/*     radial-gradient(circle at 50% 55%, transparent calc(var(--fp-big-r) + var(--fp-mBS)), blue calc(var(--fp-big-r) + var(--fp-mBS)), blue calc(var(--fp-big-r) + var(--fp-mBS) + 1px), transparent calc(var(--fp-big-r) + var(--fp-mBS) + 1px)), */
+    radial-gradient(circle at 50% var(--fp-big-pY), var(--fp-color) var(--fp-big-r), transparent var(--fp-big-r)),
+    radial-gradient( circle at calc(50% - var(--C)) var(--fp-small-pY), var(--fp-color) var(--A), transparent var(--A)),
+    radial-gradient( circle at 50% var(--B), var(--fp-color) var(--A), transparent var(--A)),
+    radial-gradient( circle at calc(50% + var(--C)) var(--fp-small-pY), var(--fp-color) var(--A), transparent var(--A));
+/*     radial-gradient(circle at center, red, red 100%); */
+  background-size: var(--fp-size) var(--fp-size);
+  height: 100vh;
+  margin: 0;
+}
