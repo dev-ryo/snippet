@@ -1,5 +1,5 @@
 # Dog footprint
-![1583832387841](https://user-images.githubusercontent.com/42329240/76298437-c4210380-62fc-11ea-99a5-e76c043bb21c.gif)
+![1584115959227](https://user-images.githubusercontent.com/42329240/76639138-f5b1fd00-6590-11ea-89f2-dbad98ba4e15.jpg)
 
 ## TOC
  - [Directory structure](#Directory-structure)
