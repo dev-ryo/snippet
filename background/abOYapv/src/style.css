@@ -1,0 +1,34 @@
+div {
+  --bg-c: #7FD1AE;
+  --bg-size: 90px;
+  --buoy-c: #eb4444;
+  --buoy-r: 30px;
+  --buoy-w: 12px;
+  --line-c: #fff;
+  --line-w: 10px;
+  --A: calc(var(--line-w) / 2);
+  --B: calc(var(--buoy-r) - var(--buoy-w));
+  background-image:
+    linear-gradient(45deg, transparent calc(50% - var(--A)), var(--line-c) calc(50% - var(--A)), var(--line-c) calc(50% + var(--A)), transparent calc(50% - var(--A))),
+    linear-gradient(-45deg, transparent calc(50% - var(--A)), var(--line-c) calc(50% - var(--A)), var(--line-c) calc(50% + var(--A)), transparent calc(50% - var(--A))),
+    linear-gradient(var(--buoy-c), var(--buoy-c) 100%);
+  background-size: var(--bg-size) var(--bg-size);
+}
+div::after {
+  content: "";
+  background-image: radial-gradient(circle at center, var(--bg-c) var(--B), transparent var(--B), transparent var(--buoy-r), var(--bg-c) var(--buoy-r));
+  background-size: var(--bg-size) var(--bg-size);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+/* Irrelevant code */
+body {margin: 0;}
+div {
+  height: 100vh;
+  position: relative;
+}
