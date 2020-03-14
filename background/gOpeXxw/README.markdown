@@ -34,6 +34,7 @@ I just uploaded the folder that I downloaded with [CodePen's export .zip functio
 [https://codepen.io/Mryoo/pen/gOpeXxw](https://codepen.io/Mryoo/pen/gOpeXxw)
 
 ## Link
+ - [I referred to the color usage](https://codepen.io/lunamatic/pen/MBaXwB)
  - [My site](https://ryo.dev/)
  - [Twitter](https://twitter.com/ryoo20190328)
 
