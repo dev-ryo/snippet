@@ -1,0 +1,22 @@
+body {
+  --bg-c: #f2efe3;
+  --bg-size: 90px;
+  --diam-c: #292c31;
+  --diam-w: 35px;
+  --diam-ang: 55deg;
+  --A: calc(50% - var(--diam-w) / 2);
+  --B: calc(50% + var(--diam-w) / 2);
+  background-image:
+    linear-gradient(var(--diam-ang), var(--bg-c) var(--A), transparent var(--A), transparent var(--B), var(--bg-c) var(--B)),
+    linear-gradient(calc(var(--diam-ang) * -1), var(--bg-c) var(--A), var(--diam-c) var(--A), var(--diam-c) var(--B), var(--bg-c) var(--B));
+  background-size: var(--bg-size) var(--bg-size);
+}
+
+
+
+
+/* Irrelevant code */
+body {
+  height: 100vh;
+  margin: 0;
+}
