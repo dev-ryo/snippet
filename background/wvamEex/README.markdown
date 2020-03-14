@@ -4,7 +4,6 @@
 ## TOC
  - [Directory structure](#Directory-structure)
  - [CSS Variables](#CSSvariables)
- - [Features](#Features)
  - [Sample](#Sample)
  - [Link](#Link)
  - [Please contact](#Please-contact)
