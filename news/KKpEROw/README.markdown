@@ -1,5 +1,5 @@
-# Accordion menu for accessibility
-![1584998479640](https://user-images.githubusercontent.com/42329240/77364489-d2106300-6d97-11ea-9c05-996a558ccb66.gif)
+# News
+![1585831395743](https://user-images.githubusercontent.com/42329240/78250634-15529a80-752b-11ea-93bf-c4e39ff13d23.gif)
 
 ## TOC
  - [Directory structure](#Directory-structure)
@@ -19,7 +19,7 @@ I just uploaded the folder that I downloaded with [CodePen's export .zip functio
 </details>
 
 ## Sample
-[https://codepen.io/Mryoo/pen/VwwGVmg](https://codepen.io/Mryoo/pen/VwwGVmg)
+[https://codepen.io/Mryoo/pen/KKpEROw](https://codepen.io/Mryoo/pen/KKpEROw)
 
 ## Link
  - [My site](https://ryo.dev/)
