@@ -1,5 +1,5 @@
 # Diamond
-![1584151092615](https://user-images.githubusercontent.com/42329240/76672792-b90ef180-65e2-11ea-8d53-a06e4a5e3301.jpg)
+![1585902460599](https://user-images.githubusercontent.com/42329240/78340108-7bddc400-75d0-11ea-9aaf-3bcace5175c1.jpg)
 
 ## TOC
  - [Directory structure](#Directory-structure)
@@ -20,17 +20,14 @@ I just uploaded the folder that I downloaded with [CodePen's export .zip functio
 </details>
 
 ## CSS Variables
- - `--bg-c`: Diamond background color
- - `--bg-size`: The size of the margin between Diamonds.
- - `--diam-c`: Diamond color
- - `--diam-w`: Diamond size
- - `--diam-ang`: Diamond angle
+ - `--bg-c1`: Square color
+ - `--bg-c2`: color of a net
+ - `--bg-size`: Size of a square
 
 ## Sample
-[https://codepen.io/Mryoo/pen/wvamEex](https://codepen.io/Mryoo/pen/wvamEex)
+[https://codepen.io/Mryoo/pen/xxGNGpL](https://codepen.io/Mryoo/pen/xxGNGpL)
 
 ## Link
- - [I referred to the color usage](https://codepen.io/lunamatic/pen/MBaXwB)
  - [My site](https://ryo.dev/)
  - [Twitter](https://twitter.com/ryoo20190328)
 

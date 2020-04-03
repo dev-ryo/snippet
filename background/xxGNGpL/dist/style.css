@@ -1,0 +1,10 @@
+body {
+  --bg-c1: #fff;
+  --bg-c2: #000;
+  --bg-size: 32px;
+  background-image:
+    linear-gradient(to top, var(--bg-c2) 50%, transparent 50%),
+    linear-gradient(to left, var(--bg-c1) 50%, var(--bg-c2) 50%);
+  background-size: var(--bg-size) var(--bg-size);
+  background-position: calc(var(--bg-size) / -2) 0;
+}
